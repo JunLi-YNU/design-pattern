@@ -1,6 +1,5 @@
 package songleton_pattern;
 
-import javax.naming.spi.Resolver;
 import java.io.ObjectStreamException;
 import java.io.Serializable;
 
