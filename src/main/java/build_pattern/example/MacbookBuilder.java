@@ -1,7 +1,7 @@
 package build_pattern.example;
 
 public class MacbookBuilder extends Builder{
-    private Computer mComputer = new Macbook();
+    private final Computer mComputer = new Macbook();
     @Override
     public void builderBoard(String board) {
         mComputer.setBoard(board);
